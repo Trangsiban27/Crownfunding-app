@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    @apply font-primary text-base;
+  }
+}
+
+.quill {
+  padding: 15px 25px;
+  border: 1px solid #f1f1f3;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+  .ql-toolbar.ql-snow {
+    border: none;
+    background: none;
+    @apply bg-text4 bg-opacity-10 inline-block rounded-xl py-3 px-5;
+  }
+  .ql-container.ql-snow,
+  .ql-editor {
+    @apply border-none font-primary text-base;
+  }
+  .ql-editor {
+    @apply pt-10 h-[320px];
+  }
+  .ql-editor.ql-blank::before {
+    font-style: normal;
+    @apply text-sm not-italic text-text4;
+  }
+}
+
+body .react-datepicker-wrapper {
+  @apply px-6 py-4 text-sm font-medium border outline-none text-text2 rounded-xl bg-transparent dark:border-darkStroke dark:text-white w-full;
+  outline: none;
+  border: 1px solid #f1f1f3;
+  .react-datepicker-ignore-onclickoutside {
+    outline: none;
+  }
+}
