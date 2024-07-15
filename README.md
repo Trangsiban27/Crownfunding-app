@@ -34,7 +34,7 @@ The main function of the project are:
 ![image](https://github.com/user-attachments/assets/04ab6194-edbd-43af-b6eb-9d493bd26149)
 ![image](https://github.com/user-attachments/assets/86922132-735d-48ee-a1dd-c057dcc5937b)
 
-##How to run the project
+## How to run the project
 1. Clone project
 2. Open terminal with path ...\crownfunding-app
 3. Enter `npm start`
